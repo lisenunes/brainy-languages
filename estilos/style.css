@@ -14,6 +14,7 @@
 }
 
 body {
+    margin: 2px;
     color: #D13833;
     
 }
@@ -24,6 +25,8 @@ menu {
     box-sizing: 2px;
     background-color: #1D2060;
     color: white;
+    border-radius: 5px;
+
 
 }
 
@@ -32,9 +35,14 @@ menu  ul  li a {
     color: white;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
+    display: inline-block;
 
 }
 
+article {
+    box-sizing: 2px;
+    background-color: rgba(33, 44, 95, 0.418);
+}
 h1, h2 {
     text-align: center;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.459);
@@ -50,14 +58,23 @@ div {
     box-sizing: 2px;
     padding: 5px 5px;
     background-color: lightgrey;
+    border-radius: 5px;
+    font-size: 0.8em;
 }
 
 footer {
     box-sizing: 1px;
     padding: 0px;
-    background-color: #121E5A;
+    background-color: grey;
     color: white;
     margin: auto;
     text-align: center;
   
 }
+
+#foot {
+    text-align: center;
+    color: white;
+    font-size: .8em;
+    font-weight: bold;
+} 
